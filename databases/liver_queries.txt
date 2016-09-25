@@ -1,0 +1,20 @@
+/*** get all docs that have certain imaging observation
+  BUT, THIS RETURNS DUPLICATES FOR OR CLAUSES 
+  ***/
+
+collection("liver.dbxml")//ImagingObservationCharacteristic[@codeValue="RID###"]
+
+// traverse upwards to get full docs
+
+collection("liver.dbxml")//ImagingObservationCharacteristic[@codeValue="RID###"]/../../..
+
+
+
+/*****
+  FLWOR EXPRESSION
+****/
+
+for $x in collection("liver.dbxml")
+where $x//ImagingObservationCharacteristic[@codeValue="RID5800"]
+and $x//ImagingObservationCharacteristic[@codeValue="RID5707"]
+return $x

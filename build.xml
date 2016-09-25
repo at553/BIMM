@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="BIMM">
+    <property environment="env"/>
+    <property name="BIMMPlugin.location" value="../BIMMPlugin"/>
+    <property name="StockWatcher.location" value="../StockWatcher"/>
+    <property name="iCBMIR.location" value="../iCBMIR"/>
+    <property name="iCBMIR_GUI.location" value="../iCBMIR_GUI"/>
+    <property name="ECLIPSE_HOME" value="../../EclipseKepler/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="Web App Libraries.libraryclasspath"/>
+    <path id="EAR Libraries.libraryclasspath"/>
+    <path id="BIMM.classpath">
+        <pathelement location="lib/AIMv3API.jar"/>
+        <pathelement location="lib/AIMv4API.jar"/>
+        <pathelement location="build/classes"/>
+        <path refid="Web App Libraries.libraryclasspath"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <pathelement location="lib/db.jar"/>
+        <pathelement location="lib/dbxml.jar"/>
+        <pathelement location="lib/javax.servlet.jsp_2.0.0.v201101211617.jar"/>
+        <pathelement location="lib/jetty-all-7.3.0.v20110203.jar"/>
+        <pathelement location="lib/json_lib.jar"/>
+        <pathelement location="lib/org.apache.commons.el_1.0.0.v201101211617.jar"/>
+        <pathelement location="lib/org.apache.commons.logging_1.0.4.v201101211617.jar"/>
+        <pathelement location="lib/org.apache.jasper_5.5.17.v201101211617.jar"/>
+        <pathelement location="lib/org.apache.xerces_2.9.0.v201101211617.jar"/>
+        <pathelement location="lib/org.restlet.jar"/>
+        <pathelement location="lib/servlet-api-2.5.jar"/>
+        <pathelement location="lib/commons-codec-1.6.jar"/>
+        <pathelement location="lib/httpclient-4.3.4.jar"/>
+        <pathelement location="lib/httpcore-4.3.2.jar"/>
+        <pathelement location="lib/toolsQIL.jar"/>
+        <pathelement location="lib/gson-2.2.4.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="build/classes"/>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="build/classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="BIMM.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects">
+        <ant antfile="build.xml" dir="${BIMMPlugin.location}" inheritAll="false" target="clean"/>
+        <ant antfile="build.xml" dir="${BIMMPlugin.location}" inheritAll="false" target="build">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+        <ant antfile="build.xml" dir="${StockWatcher.location}" inheritAll="false" target="clean"/>
+        <ant antfile="build.xml" dir="${StockWatcher.location}" inheritAll="false" target="build">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+        <ant antfile="build.xml" dir="${iCBMIR.location}" inheritAll="false" target="clean"/>
+        <ant antfile="build.xml" dir="${iCBMIR.location}" inheritAll="false" target="build">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+        <ant antfile="build.xml" dir="${iCBMIR_GUI.location}" inheritAll="false" target="clean"/>
+        <ant antfile="build.xml" dir="${iCBMIR_GUI.location}" inheritAll="false" target="build">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+    </target>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="tester (1)">
+        <java classname="bimm.epad.tester" failonerror="true" fork="yes">
+            <classpath refid="BIMM.classpath"/>
+        </java>
+    </target>
+</project>

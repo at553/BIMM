@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImageAnnotation xmlns="gme://caCORE.caCORE/3.2/edu.northwestern.radiology.AIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" aimVersion="TCGA" codeMeaning="RECIST baseline target lesion" id="0" uniqueIdentifier="302200628.178638" comment="Lung Study" dateTime="2010-07-30T09:37:08" name="roi4" xsi:schemaLocation="gme://caCORE.caCORE/3.2/edu.northwestern.radiology.AIM AIM_TCGA09302009_XML.xsd">
+    <user>
+        <User numberWithinRoleOfClinicalTrial="0" id="0" loginName="Ann N.C. Leung" name="Ann N.C. Leung"></User>
+    </user>
+    <patient>
+        <Patient id="0" sex="0000" name="DS-H-VA-7035" patientID="ANON" birthDate=""></Patient>
+    </patient>
+    <imagingObservationCollection>
+        <ImagingObservation codeMeaning="Mass" codeValue="L000" id="0">
+            <imagingObservationCharacteristicCollection>
+                <ImagingObservationCharacteristic codeMeaning="Internal_Air_Bronchogram_Absent" codeValue="L076" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="Interlobular_Septal_Thickening_Absent" codeValue="L085" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="Nodules_In_Non_Tumor_Lobes_Absent" codeValue="L100" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="Vascular_Convergence_Absent" codeValue="L091" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="lobulated_margin" codeValue="L025" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="Pleural_Retraction_Absent" codeValue="L070" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="Necrosis_Absent" codeValue="L067" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="LUL_apical_location" codeValue="L013" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="solid_density" codeValue="L059" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="Satellite_Nodules_In_Primary_Tumor_Lobe_Absent" codeValue="L079" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="Centrilobular_Nodules_Absent" codeValue="L088" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="complex_shape" codeValue="L057" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="Cavitation_Absent" codeValue="L064" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="peripheral_location" codeValue="L052" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="pleural_attachment" codeValue="L047" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="emphysema_periphery" codeValue="L041" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="Entering_Airway_Absent" codeValue="L073" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="no_calcification" codeValue="L038" id="0"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic codeMeaning="Thickened_Adjacent_Bronchovascular_Bundle_Absent" codeValue="L082" id="0"></ImagingObservationCharacteristic>
+            </imagingObservationCharacteristicCollection>
+        </ImagingObservation>
+    </imagingObservationCollection>
+    <imageReferenceCollection>
+        <ImageReference id="0" xsi:type="DICOMImageReference">
+            <study>
+                <Study id="0" instanceUID="1.3.6.1.4.1.19291.2.1.1.2964353081993100008" studyDate="2010-02-07T09:38:34">
+                    <series>
+                        <Series id="0" instanceUID="1.2.840.113619.2.267.3.2819264857.231.1265556884.345.4">
+                            <imageCollection>
+                                <Image id="0" sopClassUID="1.2.840.10008.5.1.4.1.1.2" sopInstanceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54"></Image>
+                            </imageCollection>
+                        </Series>
+                    </series>
+                </Study>
+            </study>
+        </ImageReference>
+    </imageReferenceCollection>
+    <geometricShapeCollection>
+        <GeometricShape id="0" shapeIdentifier="0" includeFlag="0" xsi:type="Polyline">
+            <spatialCoordinateCollection>
+                <SpatialCoordinate y="176.9266" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="21" x="325.8672" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="178.7701" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="20" x="324.9997" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="192.9761" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="11" x="327.1685" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="179.3123" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="25" x="335.1933" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="187.554" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="15" x="326.1925" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="186.9033" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="16" x="324.1321" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="181.2643" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="26" x="336.603" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="185.4936" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="17" x="323.4815" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="184.1922" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="0" x="337.9043" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="193.9521" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="9" x="331.6147" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="187.9877" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="2" x="341.266" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="189.9397" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="6" x="335.3017" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="186.2527" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="1" x="339.7478" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="192.9761" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="8" x="333.0244" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="183.65" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="18" x="324.2406" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="176.7097" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="22" x="328.1445" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="190.3735" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="13" x="327.4938" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="188.7468" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="14" x="327.277" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="190.8072" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="5" x="336.603" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="190.8072" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="4" x="338.7719" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="177.2519" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="23" x="330.8556" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="191.3495" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="7" x="333.5666" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="194.2774" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="10" x="328.4698" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="181.1559" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="19" x="324.0237" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="191.5663" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="12" x="326.301" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="189.1806" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="3" x="340.3985" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="178.1195" id="0" imageReferenceUID="1.2.840.113619.2.267.3.2819264857.231.1265556885.505.54" coordinateIndex="24" x="333.5666" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+            </spatialCoordinateCollection>
+        </GeometricShape>
+    </geometricShapeCollection>
+</ImageAnnotation>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ImageAnnotation xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" aimVersion="AIM 3.0" cagridId="0" codeMeaning="ROI Only" codeValue="ROI" codingSchemeDesignator="ROI Only" comment="" dateTime="2012-10-31T15:07:24" name="lesion2" uniqueIdentifier="263430826.1" xsi:schemaLocation="gme://caCORE.caCORE/3.2/edu.northwestern.radiology.AIM AIM_v3_rv11_XML.xsd" xmlns="gme://caCORE.caCORE/3.2/edu.northwestern.radiology.AIM">
+<user>
+<User cagridId="0" loginName="ckurtz" name="dirac1"/>
+</user>
+<equipment>
+<Equipment cagridId="0" manufacturerModelName="0" manufacturerName="0" softwareVersion="0"/>
+</equipment>
+<imagingObservationCollection>
+<ImagingObservation annotatorConfidence="0.0" cagridId="0" codeMeaning="mass" codeValue="RID3874" codingSchemeDesignator="" comment="" label="">
+<imagingObservationCharacteristicCollection>
+<ImagingObservationCharacteristic annotatorConfidence="0.0" cagridId="0" codeMeaning="absent rim" codeValue="LID121" codingSchemeDesignator="" comment="" label=""/>
+<ImagingObservationCharacteristic annotatorConfidence="0.0" cagridId="0" codeMeaning="round" codeValue="RID5799" codingSchemeDesignator="" comment="" label=""/>
+<ImagingObservationCharacteristic annotatorConfidence="0.0" cagridId="0" codeMeaning="normal perilesional tissue" codeValue="LID105" codingSchemeDesignator="" comment="" label=""/>
+<ImagingObservationCharacteristic annotatorConfidence="0.0" cagridId="0" codeMeaning="circumscribed margin" codeValue="RID5707" codingSchemeDesignator="" comment="" label=""/>
+<ImagingObservationCharacteristic annotatorConfidence="0.0" cagridId="0" codeMeaning="smooth margin" codeValue="RID5714" codingSchemeDesignator="" comment="" label=""/>
+<ImagingObservationCharacteristic annotatorConfidence="0.0" cagridId="0" codeMeaning="hypodense" codeValue="RID6042" codingSchemeDesignator="" comment="" label=""/>
+<ImagingObservationCharacteristic annotatorConfidence="0.0" cagridId="0" codeMeaning="water density" codeValue="LID28" codingSchemeDesignator="" comment="" label=""/>
+<ImagingObservationCharacteristic annotatorConfidence="0.0" cagridId="0" codeMeaning="multiple lesions 6-10" codeValue="LID24" codingSchemeDesignator="" comment="" label=""/>
+<ImagingObservationCharacteristic annotatorConfidence="0.0" cagridId="0" codeMeaning="nonenhancing" codeValue="RID6056" codingSchemeDesignator="" comment="" label=""/>
+<ImagingObservationCharacteristic annotatorConfidence="0.0" cagridId="0" codeMeaning="homogeneous" codeValue="RID6059" codingSchemeDesignator="" comment="" label=""/>
+</imagingObservationCharacteristicCollection>
+</ImagingObservation>
+<ImagingObservation annotatorConfidence="0.0" cagridId="0" codeMeaning="portal phase" codeValue="RID11085" codingSchemeDesignator="" comment="" label="">
+<imagingObservationCharacteristicCollection/>
+</ImagingObservation>
+<ImagingObservation annotatorConfidence="0.0" cagridId="0" codeMeaning="cyst" codeValue="RID3890" codingSchemeDesignator="" comment="" label="">
+<imagingObservationCharacteristicCollection/>
+</ImagingObservation>
+</imagingObservationCollection>
+<imageReferenceCollection>
+<ImageReference cagridId="0" xsi:type="DICOMImageReference">
+<imageStudy>
+<ImageStudy cagridId="0" instanceUID="1.2.826.0.1.3680043.8.420.24439875857883143073238709628660267514" startDate="2008-03-05T16:55:00" startTime="00000000">
+<imageSeries>
+<ImageSeries cagridId="0" instanceUID="1.2.826.0.1.3680043.8.420.76873583108641163383000001144183338299">
+<imageCollection>
+<Image cagridId="0" sopClassUID="1.2.840.10008.5.1.4.1.1.2" sopInstanceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834"/>
+</imageCollection>
+</ImageSeries>
+</imageSeries>
+</ImageStudy>
+</imageStudy>
+</ImageReference>
+</imageReferenceCollection>
+<geometricShapeCollection>
+<GeometricShape cagridId="0" includeFlag="false" lineColor="" lineOpacity="" lineStyle="" lineThickness="" shapeIdentifier="11" xsi:type="Polyline">
+<spatialCoordinateCollection>
+<SpatialCoordinate cagridId="0" coordinateIndex="0" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="151.6167" xsi:type="TwoDimensionSpatialCoordinate" y="129.8702"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="1" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="161.8376" xsi:type="TwoDimensionSpatialCoordinate" y="130.9575"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="2" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="169.8838" xsi:type="TwoDimensionSpatialCoordinate" y="133.1322"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="3" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="176.4077" xsi:type="TwoDimensionSpatialCoordinate" y="136.3941"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="4" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="180.3221" xsi:type="TwoDimensionSpatialCoordinate" y="139.4387"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="5" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="182.9317" xsi:type="TwoDimensionSpatialCoordinate" y="142.2657"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="6" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="188.8033" xsi:type="TwoDimensionSpatialCoordinate" y="147.9198"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="7" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="193.805" xsi:type="TwoDimensionSpatialCoordinate" y="154.6612"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="8" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="196.8495" xsi:type="TwoDimensionSpatialCoordinate" y="163.7948"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="9" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="194.2399" xsi:type="TwoDimensionSpatialCoordinate" y="170.9711"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="10" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="192.2827" xsi:type="TwoDimensionSpatialCoordinate" y="179.0173"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="11" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="188.3683" xsi:type="TwoDimensionSpatialCoordinate" y="185.9762"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="12" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="182.4968" xsi:type="TwoDimensionSpatialCoordinate" y="190.543"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="13" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="174.4506" xsi:type="TwoDimensionSpatialCoordinate" y="194.0224"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="14" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="163.3598" xsi:type="TwoDimensionSpatialCoordinate" y="197.0669"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="15" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="150.5294" xsi:type="TwoDimensionSpatialCoordinate" y="195.5447"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="16" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="141.1784" xsi:type="TwoDimensionSpatialCoordinate" y="190.7604"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="17" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="133.3496" xsi:type="TwoDimensionSpatialCoordinate" y="182.4968"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="18" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="128.3479" xsi:type="TwoDimensionSpatialCoordinate" y="172.9283"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="19" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="127.4781" xsi:type="TwoDimensionSpatialCoordinate" y="159.6629"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="20" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="130.3051" xsi:type="TwoDimensionSpatialCoordinate" y="147.9198"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="21" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="137.6989" xsi:type="TwoDimensionSpatialCoordinate" y="138.7863"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="22" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="144.2229" xsi:type="TwoDimensionSpatialCoordinate" y="132.6973"/>
+<SpatialCoordinate cagridId="0" coordinateIndex="23" imageReferenceUID="1.2.826.0.1.3680043.8.420.18944133746617356416980922299642573834" referencedFrameNumber="0" x="148.7897" xsi:type="TwoDimensionSpatialCoordinate" y="130.5226"/>
+</spatialCoordinateCollection>
+</GeometricShape>
+</geometricShapeCollection>
+<person>
+<Person birthDate="1959-04-25T08:00:00" cagridId="0" ethnicGroup="" id="312104268835983052532117573845635138188" name="LG-1-312-312104" sex="F"/>
+</person>
+</ImageAnnotation>

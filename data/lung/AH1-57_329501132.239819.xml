@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImageAnnotation xmlns="gme://caCORE.caCORE/3.2/edu.northwestern.radiology.AIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeMeaning="LIDC chest CT nodule" codingSchemeDesignator="IPAD" dateTime="2011-06-11T09:05:32" id="0" name="AH1-57" comment="Lung Study" codeValue="IPAD3" uniqueIdentifier="329501132.239819" aimVersion="TCGA" xsi:schemaLocation="gme://caCORE.caCORE/3.2/edu.northwestern.radiology.AIM AIM_TCGA09302009_XML.xsd">
+    <user>
+        <User name="ann leung" id="0" loginName="ann leung" numberWithinRoleOfClinicalTrial="0"></User>
+    </user>
+    <geometricShapeCollection>
+        <GeometricShape id="0" includeFlag="0" shapeIdentifier="0" xsi:type="Polyline">
+            <spatialCoordinateCollection>
+                <SpatialCoordinate y="330.0957" id="0" coordinateIndex="1" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="370.3926" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="328.7646" id="0" coordinateIndex="2" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="367.5641" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="339.746" id="0" coordinateIndex="7" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="363.5709" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="335.7527" id="0" coordinateIndex="10" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="370.559" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="332.0923" id="0" coordinateIndex="0" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="373.7203" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="328.4318" id="0" coordinateIndex="3" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="364.9019" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="342.4081" id="0" coordinateIndex="8" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="365.7339" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="334.4217" id="0" coordinateIndex="11" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="374.885" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="332.5914" id="0" coordinateIndex="5" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="359.2448" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="329.2637" id="0" coordinateIndex="4" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="360.7423" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="338.4149" id="0" coordinateIndex="9" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="367.8969" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+                <SpatialCoordinate y="336.0855" id="0" coordinateIndex="6" imageReferenceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722" x="359.744" referencedFrameNumber="1" xsi:type="TwoDimensionSpatialCoordinate"></SpatialCoordinate>
+            </spatialCoordinateCollection>
+        </GeometricShape>
+    </geometricShapeCollection>
+    <imagingObservationCollection>
+        <ImagingObservation id="0" codeValue="L000" codeMeaning="Mass">
+            <imagingObservationCharacteristicCollection>
+                <ImagingObservationCharacteristic id="0" codeValue="L052" codeMeaning="peripheral_location"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L069" codeMeaning="Pleural_Retraction_Present"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L040" codeMeaning="normal_periphery"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L079" codeMeaning="Satellite_Nodules_In_Primary_Tumor_Lobe_Absent"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L054" codeMeaning="round_shape"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L072" codeMeaning="Entering_Airway_Present"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L024" codeMeaning="smooth_margin"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L076" codeMeaning="Internal_Air_Bronchogram_Absent"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L100" codeMeaning="Nodules_In_Non_Tumor_Lobes_Absent"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L082" codeMeaning="Thickened_Adjacent_Bronchovascular_Bundle_Absent"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L014" codeMeaning="LUL_posterior_location"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L091" codeMeaning="Vascular_Convergence_Absent"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L038" codeMeaning="no_calcification"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L067" codeMeaning="Necrosis_Absent"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L085" codeMeaning="Interlobular_Septal_Thickening_Absent"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L088" codeMeaning="Centrilobular_Nodules_Absent"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L049" codeMeaning="no_attachment"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L059" codeMeaning="solid_density"></ImagingObservationCharacteristic>
+                <ImagingObservationCharacteristic id="0" codeValue="L064" codeMeaning="Cavitation_Absent"></ImagingObservationCharacteristic>
+            </imagingObservationCharacteristicCollection>
+        </ImagingObservation>
+    </imagingObservationCollection>
+    <patient>
+        <Patient birthDate="" id="0" name="AH-1-112-675978" patientID="67597827737622922506731697272445753879" sex="F"></Patient>
+    </patient>
+    <imageReferenceCollection>
+        <ImageReference id="0" xsi:type="DICOMImageReference">
+            <study>
+                <Study id="0" instanceUID="1.2.826.0.1.3680043.8.420.32859726271798508765166172573271482336" studyDate="2005-03-11T15:00:42">
+                    <series>
+                        <Series id="0" instanceUID="1.2.826.0.1.3680043.8.420.11816986362330475873711407627970734160">
+                            <imageCollection>
+                                <Image id="0" sopClassUID="1.2.840.10008.5.1.4.1.1.2" sopInstanceUID="1.2.826.0.1.3680043.8.420.47776508206961939377204521620552190722"></Image>
+                            </imageCollection>
+                        </Series>
+                    </series>
+                </Study>
+            </study>
+        </ImageReference>
+    </imageReferenceCollection>
+</ImageAnnotation>
